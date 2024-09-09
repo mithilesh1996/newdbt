@@ -1,0 +1,10 @@
+version: 2
+
+sources:  
+  - name: member
+    database: RAW
+    schema: DBT
+    tables:
+      - name: table_1
+      - name: table_2
+      
