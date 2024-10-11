@@ -10,3 +10,9 @@ sources:
         description: One record per customer.
       - name: orders
         description: One record per order. Includes cancelled and deleted orders.
+  - name: emp
+    database: raw
+    schema: dbt
+    tables:
+      - name: employee_details
+
